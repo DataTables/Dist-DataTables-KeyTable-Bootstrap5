@@ -11,7 +11,7 @@
         <tags>KeyTable  Excel  keyboard  Spreadsheet  Bootstrap  Bootstrap5  Datatables jQuery table</tags>
         <dependencies>
             <dependency id="datatables.net-keytable" version=">=2.6.2"/>
-            <dependency id="datatables.net-bs5" version=">=1.10.26-dev"/>
+            <dependency id="datatables.net-bs5" version=">=1.10.25"/>
         </dependencies>
         <contentFiles>
             <files include="**/*" buildAction="Content"/>
