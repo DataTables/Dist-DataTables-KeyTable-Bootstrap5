@@ -11,6 +11,6 @@
         "types/keyTable.bootstrap5.d.ts"
     ],
     "src-repo": "http://github.com/DataTables/KeyTable",
-    "last-tag": "2.6.3",
+    "last-tag": "2.6.4",
     "last-sync": "479505f1f73f42cb21ea1f26b7ded9436e94cdd2"
 }
