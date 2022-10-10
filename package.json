@@ -2,12 +2,14 @@
     "name": "datatables.net-keytable-bs5",
     "description": "KeyTable for DataTables with styling for [Bootstrap5](https://getbootstrap.com/)",
     "main": "js/keyTable.bootstrap5.js",
+    "module": "js/keyTable.bootstrap5.mjs",
     "style": "css/keyTable.bootstrap5.css",
     "types": "./types/keyTable.bootstrap5.d.ts",
     "version": "2.7.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
+        "js/**/*.mjs",
         "types/**/*.d.ts"
     ],
     "keywords": [
