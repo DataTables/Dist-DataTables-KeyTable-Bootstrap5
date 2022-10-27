@@ -10,7 +10,8 @@
         "css/keyTable.bootstrap5.min.css"
     ],
     "types": [
-        "types/keyTable.bootstrap5.d.ts"
+        "types/keyTable.bootstrap5.d.ts",
+        "types/types.d.ts"
     ],
     "src-repo": "http://github.com/DataTables/KeyTable",
     "last-tag": "2.7.0"
