@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-keytable-bs5",
     "description": "KeyTable for DataTables with styling for [Bootstrap5](https://getbootstrap.com/)",
-    "main": "js/keyTable.bootstrap5.js",
-    "module": "js/keyTable.bootstrap5.mjs",
-    "style": "css/keyTable.bootstrap5.css",
+    "main": "./js/keyTable.bootstrap5.js",
+    "module": "./js/keyTable.bootstrap5.mjs",
+    "style": "./css/keyTable.bootstrap5.css",
     "types": "./types/keyTable.bootstrap5.d.ts",
     "version": "3.0.0",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "KeyTable",
@@ -38,5 +37,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/KeyTable.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/keyTable.bootstrap5.d.ts",
+            "import": "./js/keyTable.bootstrap5.mjs",
+            "default": "./js/keyTable.bootstrap5.mjs",
+            "require": "./js/keyTable.bootstrap5.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/keyTable.bootstrap5.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
