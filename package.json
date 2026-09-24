@@ -41,9 +41,10 @@
     "exports": {
         ".": {
             "types": "./types/keyTable.bootstrap5.d.ts",
+            "style": "./css/keyTable.bootstrap5.css",
             "import": "./js/keyTable.bootstrap5.mjs",
-            "default": "./js/keyTable.bootstrap5.mjs",
-            "require": "./js/keyTable.bootstrap5.js"
+            "require": "./js/keyTable.bootstrap5.js",
+            "default": "./js/keyTable.bootstrap5.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
